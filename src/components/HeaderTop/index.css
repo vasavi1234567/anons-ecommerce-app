@@ -1,0 +1,41 @@
+.header-top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-top-content {
+    font-style: 'Poppins';
+    font-weight: 500;
+    font-size: 13.5px;
+    color: #787878;
+    margin-left: 50px;
+}
+
+.select-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.select {
+    background-color: #EFEFEF;
+    border: none;
+    border-width: 0px;
+    border-style: solid;
+    outline: none;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-top-container {
+        display: none;
+    }
+}

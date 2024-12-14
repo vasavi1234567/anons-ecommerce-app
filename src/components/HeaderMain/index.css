@@ -1,0 +1,26 @@
+.header-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.input-container {
+    padding: 20px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    .header-main-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .icons-container {
+        display: none;
+    }
+}

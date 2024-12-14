@@ -1,0 +1,26 @@
+.list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.list-item {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15.75px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px;
+    border-color: #FF8F9c;
+    border-style: solid;
+}
+
+@media screen and (max-width: 768px) {
+    .list-item {
+        display: none;
+    }
+}

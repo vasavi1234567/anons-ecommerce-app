@@ -1,0 +1,21 @@
+.product-type {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.small-product-type {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .product-type {
+        display: none;
+    }
+
+    .small-product-type {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
